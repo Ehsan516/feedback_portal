@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Feedback Portal</title></head>
+<body>
+  <h1>Anonymous Feedback Portal</h1>
+  <form method="post">
+    {% csrf_token %}
+    <textarea name="message" rows="6" cols="50" placeholder="Write your feedback here OMG HI GUYS..."></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
