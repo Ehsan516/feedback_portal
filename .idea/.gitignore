@@ -1,3 +1,23 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# PyCharm IDE settings
+.idea/
+*.iml
+
+# Byte-compiled / temporary files
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Security keys / sensitive files
+secret.key
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# SQLite DB (if used)
+db.sqlite3
